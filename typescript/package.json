@@ -1,0 +1,38 @@
+{
+  "name": "ts-mock",
+  "version": "1.0.0",
+  "description": "Mock react components using jest and typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "jest",
+    "typescript"
+  ],
+  "author": "Brian Houser",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^18.1.1",
+    "@types/react": "^15.0.12",
+    "@types/react-test-renderer": "^15.4.2",
+    "jest": "^19.0.1",
+    "react": "^15.4.2",
+    "react-test-renderer": "^15.4.2",
+    "ts-jest": "^19.0.0",
+    "typescript": "^2.2.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx)$",
+    "moduleFileExtensions": [
+      "js",
+      "ts",
+      "tsx"
+    ]
+  }
+}
