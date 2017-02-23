@@ -1,4 +1,4 @@
-jest.mock('../ChildComponent', () => 'Spacer');
+jest.mock('../ChildComponent', () => 'ChildComponent');
 
 import * as React from 'react';
 import * as renderer from 'react-test-renderer';
